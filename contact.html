@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap-Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+	li label
+	{
+		width: 70%;
+	}
+	li input
+	{
+		width: 70%;
+	}
+	li textarea
+	{
+		width: 70%;
+	}
+</style>
+</head>
+<body>
+
+	 <nav class="navbar navbar-default">
+	 	<div class="container-fluid">
+      <div class="navbar-header">
+      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavPtr">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+       </button>          
+        <div class="navbar-brand">Denis Gayvoronsky
+      </div>
+  </div>
+      <div class= "navbar-collapse collapse" id="myNavPtr">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+</div>
+
+  </nav>
+
+		<div class="conteiner">
+			<div class="row">
+				<div class="col-md-8">
+					About Me
+				</div>
+				<div class="col-md-4">
+					Connect with Me
+				</div>
+			</div>
+			<div class="row">
+			 <div class="col-md-8">
+			 	<form id="contact-form">
+			<ul>
+				<li>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
+				</li>
+				<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="jane.doe@gmail.com" required="required">
+				</li>
+				<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+				</li>
+				</ul>
+		<input type="submit">
+		<!--Submit button is not implemented yet. -->
+		</form>
+			</div>	
+			<div class="col-md-4">
+			
+					<a href="https://github.com/deniskag/Basic-Portfolio" target="_blank"><img src="assets/images/Github-128.png" width="40px" height="40px"></a>
+					<a href="https://www.linkedin.com/start/?lastWidget=uno_goals_takeover" target="_blank"><img src="assets/images/linkedin-128.png" width="40px" height="40px"></a>
+					<a href="https://stackoverflow.com/users/9372099/denis-gayvoronsky?tab=profile" target="_blank"><img src="assets/images/stackoverflow-128.png" height="40px" width="40px"></a>
+
+			</div>
+			</div>
+</div>
+		
+</body>
+</html>
